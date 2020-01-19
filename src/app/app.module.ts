@@ -13,6 +13,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ScoresComponent } from './scores/scores.component';
+import { RankingsComponent } from './rankings/rankings.component';
+import { LocalCircuitsComponent } from './local-circuits/local-circuits.component';
+import { EnsemblesComponent } from './ensembles/ensembles.component';
 
 const appRoutes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -23,7 +26,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    ScoresComponent
+    ScoresComponent,
+    RankingsComponent,
+    LocalCircuitsComponent,
+    EnsemblesComponent
   ],
   imports: [
     BrowserModule,
