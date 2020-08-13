@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "wgiscores-angular"
+  "defaultProject": "wgiscores-angular",
+  "cli": {
+    "analytics": false
+  }
 }
